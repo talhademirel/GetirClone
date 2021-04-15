@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.getirproject.HomeFragment"
+        android:label="Getir"
+        tools:layout="@layout/category_list" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.getirproject.SearchFragment"
+        android:label="Search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.getirproject.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/settingsFragment3"
+        android:name="com.example.getirproject.SettingsFragment3"
+        android:label="SettingsFragment3" />
+</navigation>
